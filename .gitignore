@@ -1,5 +1,7 @@
-/.project
-/.classpath
+/JavaProject/.project
+.project
+/JavaProject/.classpath
 *.class
-*.project
-.settings/org.eclipse.jdt.core.prefs
+/JavaProject/.settings/org.eclipse.jdt.core.prefs
+
+
