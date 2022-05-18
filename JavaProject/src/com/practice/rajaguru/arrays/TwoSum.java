@@ -1,8 +1,7 @@
-package com.practise.rajaguru.arrays;
+package com.practice.rajaguru.arrays;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 
 public class TwoSum {
 
