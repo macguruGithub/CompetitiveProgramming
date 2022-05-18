@@ -1,4 +1,4 @@
-package com.practise.rajaguru.arrays;
+package com.practice.rajaguru.arrays;
 
 public class NonDecresingArray_665 {
     public static void main(String[] args) {
