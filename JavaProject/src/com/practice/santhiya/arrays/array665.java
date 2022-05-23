@@ -30,7 +30,7 @@ public class array665 {
 
         }
 
-        // Working for all scenarios.
+        // Working for all scenarios.16
         public static boolean nondecarray(int[] nums){
             int cnt = 0;                                                                    //the number of changes
             for(int i = 1; i < nums.length && cnt<=1 ; i++){
