@@ -7,11 +7,11 @@ import java.util.Set;
 
 public class FourSum_18 {
     public static void main(String[] args) {
-        threeSum();
+        fourSum();
     }
 
     //two pointer approach - perfect working condition
-    static void threeSum(){
+    static void fourSum(){
         int[] nums = {1,0,-1,0,-2,2};
         int target = 0;
         Set<List<Integer>> fourLets = new HashSet<List<Integer>>();
