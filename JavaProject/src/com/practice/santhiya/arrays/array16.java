@@ -14,6 +14,8 @@ public class array16 {
         System.out.println(a);
     }
 
+
+    // Bidirectional two way pointer approach  -- works only on sorted array
     public static int closetar(int[] nums, int target) {
         Arrays.sort(nums);
         int len = nums.length;
