@@ -7,6 +7,7 @@ public class Test {
         int xPowNresult = new Test().XpowN(2, 4, 2);
         System.out.println(xPowNresult);
 
+        
         // System.out.println(n);
     }
 
