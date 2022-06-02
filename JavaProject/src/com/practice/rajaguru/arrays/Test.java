@@ -6,7 +6,6 @@ public class Test {
         int fib = new Test().getNthfibnacci(7);
         int xPowNresult = new Test().XpowN(2, 4, 2);
         System.out.println(xPowNresult);
-        
 
         // System.out.println(n);
     }
