@@ -12,7 +12,6 @@ public class SpiralArray54 {
         int len=matrix.length;
         System.out.println(len);
         List<Integer> result = spiralOrder(matrix);
-        System.out.println(result);
     }
 
     public static List<Integer> spiralOrder(int[][] matrix) {
@@ -27,12 +26,12 @@ public class SpiralArray54 {
 
         while(rowStart<=rowEnds && colStart<=colEnds){
 
-            for(int i=colStart;i<=colEnds;i++){
+            for(int i=colStart;i<colEnds;i++){
                 result.add(matrix[rowStart][i]);
             }
             rowStart++;
 
-            for(int j=rowStart;j<=rowEnds;j++){
+            for(int j=rowStart;j<rowEnds;j++){
                 result.add(matrix[j][colEnds]);
             }
             colEnds--;
