@@ -1,15 +1,20 @@
 package com.practice.rajaguru.arrays;
 
+import java.math.BigDecimal;
+
 public class Test {
     public static void main(String[] args) {
-        int n=5;
-        int fib = new Test().getNthfibnacci(7);
-        int xPowNresult = new Test().XpowN(2, 4, 2);
-        System.out.println(xPowNresult);
+    double value = 1.1;
+    
+    // value = value - value % 1;
+    // System.out.println(value);
+        int a = (int)1.132423423;
+        System.out.println(a);
 
-        
-        // System.out.println(n);
+
     }
+
+    
 
     
 
