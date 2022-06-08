@@ -1,11 +1,7 @@
 package com.practice.rajaguru.arrays;
 
-import java.io.InputStream;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 import java.util.function.Supplier;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
