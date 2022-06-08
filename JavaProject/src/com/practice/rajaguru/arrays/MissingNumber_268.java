@@ -14,10 +14,8 @@ public class MissingNumber_268 {
     }
 
     public int missingNumber(int[] nums) {
-        int givenCount = arrToStream(nums).get().reduce(0,(prev,curr)->prev+curr);
-        int totalCount = IntStream.rangeClosed(0, nums.length).reduce(0,(prev,curr)->prev+curr);
-
-        return totalCount-givenCount;
+        return IntStream.rangeClosed(0, nums.length).reduce(0,(prev,curr)->prev+curr)
+        -arrToStream(nums).get().reduce(0,(prev,curr)->prev+curr);
     }
 
     Supplier<Stream<Integer>> arrToStream(int[] arr){
